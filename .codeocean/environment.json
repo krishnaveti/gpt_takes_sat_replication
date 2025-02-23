@@ -1,0 +1,55 @@
+{
+	"version": 1,
+	"base_image": "registry.codeocean.com/codeocean/julia:1.10.2-22.04.1",
+	"options": {},
+	"installers": {
+		"julia": {
+			"packages": [
+				{
+					"name": "CSV",
+					"version": "0.10.15"
+				},
+				{
+					"name": "Distributions",
+					"version": "0.25.116"
+				},
+				{
+					"name": "Plots",
+					"version": "1.40.9"
+				},
+				{
+					"name": "StatsPlots",
+					"version": "0.15.7"
+				},
+				{
+					"name": "XLSX",
+					"version": "0.10.4"
+				}
+			],
+			"version": "1.10.2"
+		},
+		"vscode": {
+			"packages": [
+				{
+					"name": "REditorSupport.R"
+				},
+				{
+					"name": "continue.continue"
+				},
+				{
+					"name": "ms-python.python"
+				},
+				{
+					"name": "ms-toolsai.jupyter"
+				},
+				{
+					"name": "reageyao.bioSyntax"
+				},
+				{
+					"name": "saoudrizwan.claude-dev"
+				}
+			],
+			"version": "4.95.3"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+metadata_version: 1
+name: 'GPT takes the SAT: Tracing changes in Test Difficulty and Students'' Math Performance'
+description: Full reproducible code for all images in the manuscript.
+authors:
+- name: Vikram Suresh
+  affiliations:
+  - name: University of Cincinnati
+corresponding_contributor:
+  name: Saani Rawat
+  email: rawatsa@mail.uc.edu
